@@ -22,5 +22,5 @@ clip.extractImage(sample_folder.joinpath(f"test_{clip.t}.jpg"))
 
 clip.render_pyav(sample_folder.joinpath("test.mp4"))
 
-clip.release()
+clip.release() 
 CTX.release()
